@@ -1,4 +1,5 @@
-# @vue/cli preset
+# vue-admin-preset
+Vue3 基础预设
 
 ## 全局安装 @vue/cli
 
