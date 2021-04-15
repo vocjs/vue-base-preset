@@ -1,5 +1,7 @@
 {
+  "vueVersion": "3",
   "useConfigFiles": true,
+  "cssPreprocessor": "dart-sass",
   "plugins": {
     "@vue/cli-plugin-babel": {},
     "@vue/cli-plugin-typescript": {
@@ -11,15 +13,14 @@
     },
     "@vue/cli-plugin-vuex": {},
     "@vue/cli-plugin-eslint": {
-      "config": "base",
+      "config": "prettier",
       "lintOn": [
-        "save"
+        "commit"
       ]
     },
     "@vue/cli-plugin-unit-jest": {},
     "vue-cli-plugin-extend-base": {
-      "prompts": true,
-      "eslint": false,
+      "eslint": true,
       "forkTsChecker": {}
     },
     "vue-cli-plugin-mocker": {
@@ -28,7 +29,5 @@
       "demo": true,
       "mock": {}
     }
-  },
-  "vueVersion": "3",
-  "cssPreprocessor": "dart-sass"
+  }
 }
